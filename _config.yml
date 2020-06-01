@@ -1,0 +1,24 @@
+theme: minima
+title: KeebPad
+author:
+  name: seanuleh
+  email: seanelsayed@gmail.com
+description:
+  BLE Enabled - Battery Powered - Mechanical Switch - RGB Backlit - Macropad
+  -> K E E B P A D .
+show_excerpts: true # set to true to show excerpts on the homepage
+minima:
+  date_format: "%b %-d, %Y"
+
+baseurl: /KeebPad_Buildlog
+
+collections:
+  components:
+    output: true
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+gems:
+ - jekyll-relative-links
